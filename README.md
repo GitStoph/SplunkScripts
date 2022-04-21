@@ -51,10 +51,9 @@ optional arguments:
 ```
 
 Args:
-
-`-s` - What are you searching for? Partial hostnames, IPs, and/or MACs accepted.
-`-l` - If you want to optionally limit how many lines of output you receive. 
-`-d` - Dedupes the results by MAC address. Useful if you don't care about every single DHCP renew event or DNS update. 
+- `-s` - What are you searching for? Partial hostnames, IPs, and/or MACs accepted.
+- `-l` - If you want to optionally limit how many lines of output you receive. 
+- `-d` - Dedupes the results by MAC address. Useful if you don't care about every single DHCP renew event or DNS update. 
 
 Example: `searchdhcp -s 10.0.0.1 -d`
 
