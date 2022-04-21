@@ -2,6 +2,8 @@
 These scripts were originally written for network admins and/or security engineers/analysts to be able to quickly
 track down splunk logs for potential IOCs, or simply troubleshoot devices. 
 These scripts are intended to be run from the `bin`. They don't need to be, but that's what I preferred. 
+These scripts were written with Windows and PaloAlto logs in splunk specifically. If you use something different,
+you'll have to update the scripts accordingly. I hope this is helpful.
 
 ## RHEL Python3 Install:
 ```
@@ -29,7 +31,7 @@ python3.6 -m pip install -r requirements.txt
 umask 022
 python3.6 -m pip install --upgrade -r requirements.txt
 ```
-## ---------------------------------------------------------------------------------
+
 
 ## searchdhcp.py
 
