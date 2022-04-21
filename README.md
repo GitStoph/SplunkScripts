@@ -57,7 +57,7 @@ Args:
 `-d` - Dedupes the results by MAC address. Useful if you don't care about every single DHCP renew event or DNS update. 
 
 Example: `searchdhcp -s 10.0.0.1 -d`
-## ---------------------------------------------------------------------------------
+
 
 ## checkfw.py
 ```
@@ -82,7 +82,7 @@ optional arguments:
 ```
 
 Example: `checkfw -d 8.8.8.8 -s 10.0.0.1 -o -t 15m -u myusername`
-## ---------------------------------------------------------------------------------
+
 
 ## u2m.py
 ```
@@ -97,5 +97,4 @@ optional arguments:
 ```
 
 Example: `u2m -s myusername`
-## ---------------------------------------------------------------------------------
 
