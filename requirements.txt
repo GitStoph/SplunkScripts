@@ -1,0 +1,17 @@
+certifi==2020.6.20
+cffi==1.14.5
+chardet==3.0.4
+colorama==0.4.4
+commonmark==0.9.1
+cryptography==3.4.7
+idna==2.8
+jwt==1.2.0
+pycparser==2.20
+Pygments==2.9.0
+python-dotenv==0.14.0
+python-json-logger==0.1.11
+requests==2.22.0
+rich==10.4.0
+splunk-handler==2.2.0
+splunk-sdk==1.6.13
+urllib3==1.25.10
